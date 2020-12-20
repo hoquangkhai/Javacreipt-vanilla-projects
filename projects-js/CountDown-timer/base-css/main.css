@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.25%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  width: 100%;
+  min-height: 100vh;
+
+  background-image: url(./img/bg.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-title {
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px;
+  margin: 1rem auto 0;
+  color: greenyellow;
+}
+
+.countdown-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin: 15px;
+}
+
+.big-text {
+  font-size: 4rem;
+  font-weight: 500;
+  padding: 5px 0;
+}
+
+.content-title {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+#day,
+#day ~ span {
+  color: red;
+}
+
+#hour,
+#hour ~ span {
+  color: orange;
+}
+
+#min,
+#min ~ span {
+  color: yellow;
+}
+
+#sec,
+#sec ~ span {
+  color: blue;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lunar,
+.new-years {
+  font-size: 1rem;
+  font-weight: 500;
+
+  padding: 5px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px solid greenyellow;
+  outline: none;
+}
+
+.lunar:hover,
+.new-years:hover {
+  color: greenyellow;
+  background-color: red;
+}
+
+.red {
+  background-color: red;
+}

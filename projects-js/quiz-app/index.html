@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz-app</title>
+  <link rel="stylesheet" href="./base-css/reset.css">
+  <link rel="stylesheet" href="./base-css/main.css">
+</head>
+
+<body>
+<div class="question-container">
+  <div class="choose-subject">
+    <label for="">Chọn môn học:</label>
+    <select name="subject-list" id="subject-list">
+      <!-- <option value="1">Lý Luận Chính Trị</option> -->
+    </select>
+  </div>
+  <h2 class="question-heading">Lý Luận Chính Trị</h2>
+  <div class="question-body">
+    <h4 class="question">Thuộc tính đặc trưng của vật chất theo quan niệm MácLênin là gì
+    </h4>
+  <ul class="list">
+    <li class="list-item">
+      <input type="radio" id="A" name="answer">
+      <label for="A" class="answer">
+        Là một phạm trù triết học Là thực tại khách quan tồn tại bên ngoài, không lệ thuộc vào cảm giác
+      </label>
+    </li>
+    <li class="list-item">
+      <input type="radio" id="B" name="answer">
+      <label for="B" class="answer">Là thực tại khách quan tồn tại bên ngoài, không lệ thuộc vào cảm giác</label>
+    </li>
+    <li class="list-item">
+      <input type="radio" id="C" name="answer">
+      <label for="C" class="answer">Là toàn bộ thế giới hiện thực</label>
+    </li>
+    <li class="list-item">
+      <input type="radio" id="D" name="answer">
+      <label for="D" class="answer">Là tất cả những gì tác động vào giác quan ta gây lên cảm giác</label>
+    </li>
+  </ul>
+  </div>
+
+  <span></span>
+
+  <div class="question-footer">
+    <button class="btn btnBack">Quay lại</button>
+    <button class="btn btnNext">Tiếp theo</button>
+  </div>
+</div>
+</body>
+
+<script src="./main.js"></script>
+</html>
